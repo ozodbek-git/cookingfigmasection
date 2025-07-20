@@ -927,7 +927,7 @@
     }
 
     .big__cart{
-        margin-top: 50%;
+        margin-top: 30%;
     }
 
     .big__cart__title{
@@ -1108,6 +1108,7 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-top: 10%;
+        grid-gap: 40px;
     }
 
     .Ingredients__right__top__cart{
@@ -1142,6 +1143,11 @@
     .Ingredients__right__top__cart__left{
         width: 100%;
         border-radius: 18px;
+    }
+
+    .big__cart{
+        margin-top: 0% ;
+        height: auto;
     }
 
 
@@ -1515,6 +1521,16 @@
 
     .footer__icons{
         display: none;
+    }
+
+    .footerend__tart{
+        display: none;
+    }
+
+    .footer__end{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
 }
